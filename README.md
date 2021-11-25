@@ -1,4 +1,4 @@
-# vue-wpa
+# jogando-front
 
 ## Project setup - Development
 ```
