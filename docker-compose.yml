@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  node:
+    container_name: vue
+    image: node:lts-alpine
+    ports:
+      - '8080:8080'
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: 'npm install'
+    command: 'npm run serve'
